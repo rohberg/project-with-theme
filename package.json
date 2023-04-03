@@ -22,9 +22,13 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "develop": "missdev --config=jsconfig.json --output=addons"
   },
-  "addons": [],
+  "addons": [
+    "@rohberg/springtime-theme"
+  ],
+  "theme": "@rohberg/springtime-theme",
   "jest": {
     "modulePathIgnorePatterns": [
       "api"

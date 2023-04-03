@@ -1,1 +1,7 @@
-{}
+{
+  "rohberg-springtime-theme": {
+    "package": "@rohberg/springtime-theme",
+    "url": "git@github.com:rohberg/springtime-theme.git",
+    "path": "src"
+  }
+}
