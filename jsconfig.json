@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@rohberg/springtime-theme": [
+                "addons/rohberg-springtime-theme/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }

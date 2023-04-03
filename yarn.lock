@@ -18455,7 +18455,7 @@ __metadata:
     mrs-developer: "*"
     postcss: 8.4.13
     prettier: 2.0.5
-    razzle: 4.2.17
+    razzle: 4.2.18
     stylelint: 14.0.1
     stylelint-config-idiomatic-order: 8.1.0
     stylelint-config-prettier: 8.0.1
@@ -18958,78 +18958,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"razzle-start-server-webpack-plugin@npm:4.2.17":
-  version: 4.2.17
-  resolution: "razzle-start-server-webpack-plugin@npm:4.2.17"
-  peerDependencies:
-    webpack: ~4||~5
-  checksum: e4b579d2307f0e9e183f0a45c2a427974eb8944677ba5437483f523486b0deef63d09f4d718fdb5792f2cac9194e130cb455cad607a8809fb1633bf618b638eb
-  languageName: node
-  linkType: hard
-
 "razzle-start-server-webpack-plugin@npm:4.2.18":
   version: 4.2.18
   resolution: "razzle-start-server-webpack-plugin@npm:4.2.18"
   peerDependencies:
     webpack: ~4||~5
   checksum: 96d86b21cdf7dfbfd80c781aba9036b3d5903b74877b3b8ccd491da50d7d56255b0b659b4443df3528fc764c740affd2bc853a6c0ad49d1244439d0f532bf227
-  languageName: node
-  linkType: hard
-
-"razzle@npm:4.2.17":
-  version: 4.2.17
-  resolution: "razzle@npm:4.2.17"
-  dependencies:
-    "@babel/plugin-transform-modules-commonjs": ^7.12.1
-    "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
-    autoprefixer: ^10.2.3
-    babel-jest: ^26.3.0
-    babel-loader: ^8.0.6
-    babel-plugin-transform-define: ^2.0.0
-    buffer: ^6.0.3
-    chalk: ^4.1.0
-    clean-css: ^5.0.1
-    copy-webpack-plugin: ^6.1.1
-    css-loader: ^5.0.0
-    css-minimizer-webpack-plugin: ^1.2.0
-    deepmerge: ^4.2.2
-    dotenv: ^8.2.0
-    dotenv-expand: ^5.1.0
-    file-loader: ^4.3.0
-    fs-extra: ^9.1.0
-    inquirer: ^7.3.3
-    jest: ^26.4.2
-    mri: ^1.1.4
-    null-loader: ^4.0.1
-    pnp-webpack-plugin: ^1.6.4
-    postcss: ^8.2.4
-    postcss-load-config: ^3.0.0
-    postcss-loader: ^4.2.0
-    process: ^0.11.10
-    razzle-start-server-webpack-plugin: 4.2.17
-    react-dev-utils: ^11.0.4
-    react-refresh: ^0.9.0
-    resolve: ^1.17.0
-    sade: ^1.4.2
-    source-map-support: ^0.5.16
-    string-hash: ^1.1.3
-    style-loader: ^2.0.0
-    terminate: ^2.1.2
-    terser-webpack-plugin: ^2.3.5
-    tiny-async-pool: ^1.1.0
-    url-loader: ^2.3.0
-    webpack-manifest-plugin: ^3.1.1
-    webpackbar: ~4||~5
-  peerDependencies:
-    babel-preset-razzle: 4.2.17
-    html-webpack-plugin: ~4||~5
-    mini-css-extract-plugin: ">=0.9.0 <1.0.0"
-    razzle-dev-utils: 4.2.17
-    webpack: ~4||~5
-    webpack-dev-server: ^3.11.0||~4
-  bin:
-    razzle: bin/razzle.js
-  checksum: 4fbb00ceb7972281b3a1bc9ee81c43ba0712b1e92d4f6fbb68abda53e647db0e19bab76fad101e6a4e39b2ba9abe45887c2625625ed058532babdb518044d6da
   languageName: node
   linkType: hard
 

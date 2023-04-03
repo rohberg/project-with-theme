@@ -128,3 +128,5 @@ dist
 
 # Volto
 src/addons/
+build/
+cache/
