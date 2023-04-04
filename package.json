@@ -26,9 +26,11 @@
     "develop": "missdev --config=jsconfig.json --output=addons"
   },
   "addons": [
-    "@rohberg/springtime-theme"
+    "@kitconcept/volto-light-theme",
+    "@rohberg/even-lighter-theme-customizations",
+    "@kitconcept/volto-blocks-grid"
   ],
-  "theme": "@rohberg/springtime-theme",
+  "theme": "@kitconcept/volto-light-theme",
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -138,6 +140,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
+    "@kitconcept/volto-blocks-grid": "*",
     "@plone/volto": "17.0.0-alpha.3"
   },
   "devDependencies": {

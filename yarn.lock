@@ -2420,6 +2420,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kitconcept/volto-blocks-grid@npm:*":
+  version: 7.0.0
+  resolution: "@kitconcept/volto-blocks-grid@npm:7.0.0"
+  peerDependencies:
+    "@plone/volto": ">=16.0.0"
+  checksum: 7ab37292fc2c7160c20855b98ee36e990d74e086d5f1aa91a93a6e38f9197fe7f62157f925d69c969787396b9b8558797fbd7604228253f263751bd18266805f
+  languageName: node
+  linkType: hard
+
 "@kwsites/file-exists@npm:^1.1.1":
   version: 1.1.1
   resolution: "@kwsites/file-exists@npm:1.1.1"
@@ -18443,6 +18452,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "project-with-theme@workspace:."
   dependencies:
+    "@kitconcept/volto-blocks-grid": "*"
     "@plone/scripts": ^2.1.5
     "@plone/volto": 17.0.0-alpha.3
     "@storybook/addon-actions": ^6.3.0

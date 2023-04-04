@@ -1,7 +1,12 @@
 {
-  "rohberg-springtime-theme": {
-    "package": "@rohberg/springtime-theme",
-    "url": "git@github.com:rohberg/springtime-theme.git",
+  "kitconcept-volto-light-theme": {
+    "package": "@kitconcept/volto-light-theme",
+    "url": "git@github.com:kitconcept/volto-light-theme.git",
+    "path": "src"
+  },
+  "rohberg-even-lighter-theme-customizations": {
+    "package": "@rohberg/even-lighter-theme-customizations",
+    "url": "git@github.com:rohberg/even-lighter-theme-customizations.git",
     "path": "src"
   }
 }

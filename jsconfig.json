@@ -1,8 +1,11 @@
 {
     "compilerOptions": {
         "paths": {
-            "@rohberg/springtime-theme": [
-                "addons/rohberg-springtime-theme/src"
+            "@kitconcept/volto-light-theme": [
+                "addons/kitconcept-volto-light-theme/src"
+            ],
+            "@rohberg/even-lighter-theme-customizations": [
+                "addons/rohberg-even-lighter-theme-customizations/src"
             ]
         },
         "baseUrl": "src"
